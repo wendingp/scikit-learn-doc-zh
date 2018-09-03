@@ -109,7 +109,22 @@ K-means（K-均值）算法旨在选择最小化 *inertia（惯性）* 或  with
 
 .. math:: \sum_{i=0}^{n}\min_{\mu_j \in C}(||x_j - \mu_i||^2)
 
-Inertia（惯性）, 或 the within-cluster sum of squares（簇内和平方差） criterion（标准）,可以被认为是 internally coherent clusters （内部想干聚类）的 measure （度量）。
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+Inertia（惯性）, 或 the within-cluster sum of squares（簇内和平方差） criterion（标准）,可以被认为是 internally coherent clusters （内部相干簇）的 measure （度量）。
 它有各种缺点: 
 
 - Inertia（惯性）假设 clusters （簇）是 convex（凸）的和 isotropic （各项同性），这并不是总是这样。它对 elongated clusters （细长的簇）或具有不规则形状的 manifolds 反应不佳。
